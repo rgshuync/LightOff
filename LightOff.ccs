@@ -1,0 +1,40 @@
+<Solution>
+  <PropertyGroup Name="LightOff" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Fonts">
+          <TTF Name="UVNGIOMAY_R.TTF" />
+        </Folder>
+        <Folder Name="Rescommon">
+          <Image Name="popup_bg.png" />
+        </Folder>
+        <Folder Name="ResHome">
+          <Image Name="about_blue.png" />
+          <Image Name="menu.png" />
+          <Image Name="popup_outgame_blue.png" />
+        </Folder>
+        <Folder Name="ResLevelSelect">
+          <Image Name="btn_level_lock.png" />
+          <Image Name="btn_level_normal.png" />
+          <Image Name="btn_level_select.png" />
+          <Image Name="levelselect.jpg" />
+        </Folder>
+        <Folder Name="ResMain">
+          <Image Name="light_off.png" />
+          <Image Name="light_on.png" />
+          <Image Name="light_select.png" />
+          <Image Name="main.png" />
+          <Image Name="popup_huongdan.png" />
+          <Image Name="popup_win.png" />
+        </Folder>
+        <Image Name="icon.png" />
+        <Project Name="NodeLevel.csd" Type="Node" />
+        <Project Name="Scene.csd" Type="Scene" />
+        <Project Name="SceneHome.csd" Type="Scene" />
+        <Project Name="SceneLevelSelect.csd" Type="Scene" />
+        <Project Name="SceneMain.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

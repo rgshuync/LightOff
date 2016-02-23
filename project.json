@@ -1,0 +1,27 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "cocostudio","extensions"],
+
+    "jsList" : [
+        "src/CFFLoading.js",
+        "src/resource.js",
+        "src/utils/locstor.js",
+        "src/utils/SharedData.js",
+        "src/config/GameConfig.js",
+        "src/gamePlay/scene/HomeScene.js",
+        "src/gamePlay/scene/MainScene.js",
+        "src/gamePlay/scene/LevelSelectScene.js",
+        "src/gamePlay/objects/SpriteLight.js",
+        "src/gamePlay/objects/SpriteLightSelect.js",
+        "src/gamePlay/objects/SpriteLevel.js"
+
+    ]
+}
